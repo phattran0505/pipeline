@@ -3,7 +3,7 @@ pipeline {
         stages {
             stage ('Clone'){
                 steps {
-                    git ""
+                    git "https://github.com/phattran0505/pipeline.git"
                 }
             }
         }
